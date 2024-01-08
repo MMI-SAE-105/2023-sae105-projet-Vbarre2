@@ -85,18 +85,21 @@ main{
 .Titre {
     text-align: center;
     font-size: 20px;
-    font-family: 'Sulphur Point', sans-serif;
+    font-family: 'Suez One', serif;
     margin-top: 9px;
 }
 
 .Intertitre {
     margin-top: 30px;
+    margin-left: 10px;
 }
 
 .Chapeau {
     margin-top: 50px;
     font-size: 20px;
     font-family: 'Sulphur Point', sans-serif;
+    margin-left: 5px;
+    font-family: 'Suez One', serif;
 }
 
 .maintext {
@@ -104,6 +107,7 @@ main{
     align-items: center;
     font-size: 13px;
     width: 350px;
+    margin-left: 10px;
 }
 
 .maintext2 {
@@ -111,6 +115,7 @@ main{
     align-items: center;
     font-size: 13px;
     width: 350px;
+    margin-left: 10px;
 }
 
 .img__galaxy {
@@ -122,7 +127,7 @@ main{
 }
 
 .img__galaxy2 {
-    margin: 30px;
+    margin: 40px;
     width: 300px;
     height: 142px;
     flex-shrink: 0; 
