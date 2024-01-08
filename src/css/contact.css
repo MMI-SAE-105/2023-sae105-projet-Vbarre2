@@ -1,0 +1,60 @@
+
+.main_text {
+    margin-top: 50px;
+}
+
+.nom {
+margin-top: 20px;
+}
+
+.rectangle1 {
+    width: 340px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 2px solid var(--Bleu-clair, #5965C5);
+    background: #FFF;
+}
+
+
+.prénom {
+    margin-top: 100px;
+}
+
+.rectangle2 {
+    width: 340px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 2px solid var(--Bleu-clair, #5965C5);
+    background: #FFF;
+}
+
+
+.adresse_mail {
+    margin-top: 100px;
+
+}
+
+.rectangle3 {
+    width: 340px;
+    height: 52px;
+    flex-shrink: 0;
+    border: 2px solid var(--Bleu-clair, #5965C5);
+    background: #FFF;
+}
+
+.message {
+    margin-top: 100px;
+    
+}
+
+.rectangle4 {
+    width: 340px;
+    height: 200px;
+    flex-shrink: 0;
+    border: 2px solid var(--Bleu-clair, #5965C5);
+    background: #FFF;
+}
+
+.envoyer {
+    margin-top: 210px;
+}
