@@ -57,3 +57,79 @@
     left: 217px;
     margin-top: -180px;
 }
+
+.Livre1Titre {
+    font-family: 'Sulphur Point', sans-serif;
+    position: relative;
+    top:  -250px;
+    left: 230px; 
+}
+
+.Livre2Titre {
+    font-family: 'Sulphur Point', sans-serif;
+    position: relative;
+    top:  -250px;
+    left: 230px; 
+}
+
+.Livre3Titre {
+    font-family: 'Sulphur Point', sans-serif;
+    position: relative;
+    top:  -250px;
+    left: 230px; 
+}
+
+.Date1 {
+    font-family: 'Suez One', serif;
+    position: relative;
+    top:  -250px;
+    left: 255px
+}
+
+.Date2 {
+    font-family: 'Suez One', serif;
+    position: relative;
+    top:  -250px;
+    left: 255px
+}
+
+.Date3 {
+    font-family: 'Suez One', serif;
+    position: relative;
+    top:  -250px;
+    left: 255px
+}
+
+.rectangle__1 {
+    width: 165px;
+    height: 265px;
+    flex-shrink: 0;
+    border: 1px solid #5C64AF;
+    background: #4703a7;
+    position: relative;
+    top: 346px;
+    left: 217px
+    
+}
+
+.rectangle__2 {
+    width: 165px;
+    height: 265px;
+    flex-shrink: 0;
+    border: 1px solid #5C64AF;
+    background: #4703a7;
+    position: relative;
+    top: 326px;
+    left: 217px
+}
+
+.rectangle__3 {
+    width: 165px;
+    height: 265px;
+    flex-shrink: 0;
+    border: 1px solid #5C64AF;
+    background: #4703a7;
+    position: relative;
+    top: 329px;
+    left: 217px
+}
