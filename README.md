@@ -16,7 +16,7 @@ Pour commencer, faites un fork (copie) de ce repository sur votre propre compte 
   - une en-tête de page,
   - un pied de page,
   - un système de navigation,
-  - un glossaire,
+  - un glossaire, 
   - une frise,
   - une galerie,
   - des articles avec des textes structurés et hiérarchisés
