@@ -25,60 +25,113 @@
         <p class="main_text">Vous voulez rester en contact et poser des questions à propos du site ? 
             Remplissez ce formulaire pour recevoir nos dernières actualités et mises à jour !</p>
 
-        <p class="nom">Nom</p>
-        <form class="rectangle1"></form>
+                <style>
+                    body {
+                        font-family: 'Suez One', serif;
+                        background-color: #f4f4f4;
+                        margin: 0;
+                        padding: 0;
+                        align-items: center;
+                        justify-content: center;
+                    }
+            
+                    form {
+                        background-color: #fff;
+                        padding: 20px;
+                        border-radius: 8px;
+                        box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+                        width: 300px;
+                        margin-left: 40px;
+                    }
+            
+                    label {
+                        display: block;
+                        margin-bottom: 8px;
+                    }
+            
+                    input,
+                    textarea {
+                        width: 100%;
+                        padding: 8px;
+                        margin-bottom: 16px;
+                        box-sizing: border-box;
+                        border: 1px solid #ccc;
+                        border-radius: 4px;
+                    }
+            
+                    button {
+                        background-color: #5965C5;
+                        color: #fff;
+                        padding: 10px 15px;
+                        border: none;
+                        border-radius: 4px;
+                        cursor: pointer;
+                        margin-top: -100px;
+                    }
+            
+                    button:hover {
+                        background-color: #5965C5;
+                    }
+                </style>
+            </head>
+            <body>
+            
+                <form action="#" method="post">
+                    <label for="name">Nom :</label>
+                    <input type="text" id="name" name="name" required>
 
-        <p class="prénom">Prénom</p>
-        <form class="rectangle2"></form>
+                    <label for="email">Prénom :</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="email">Adresse mail :</label>
+                    <input type="email" id="email" name="email" required>
+            
+                    <label for="message">Message :</label>
+                    <textarea id="message" name="message" rows="4" required></textarea>
+            
+                    <button type="submit">Envoyer</button>
+                </form>
 
-        <p class="adresse_mail">Adresse mail</p>
-        <form class="rectangle3"></form>
-
-        <p class="message">Message</p>
-        <form class="rectangle4"></form>
-
-        <button class="envoyer">Envoyer</button>
-
-
-        <footer>
-            <div class="footer__text" >
-                <p class="footer__nom">Vincent Barré</p>
-                <p class="footer__groupe">Groupe C2</p>
-                <p class="footer__contact">Contact</p>
-                <p class="footer__autres">Autres projets</p>
-                <p class="footer__apropos">A propos</p>
-                <p class="footer__mail">vincentbarre7@gmail.com</p>
-                <p class="footer__dpt">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI Montbéliard</p>
-            </div>
-            <div class="icon__footer">
-                <img
-                    class="main__iconig"
-                    src="/public/icon/logo-ig-logo-abundant-instagram-logo-simple-icon-1.png"  
-                    alt="Icon Instagram"
-                />
+                <footer>
+                    <div class="footer__text" >
+                        <p class="footer__nom">Vincent Barré</p>
+                        <p class="footer__groupe">Groupe C2</p>
+                        <p class="footer__contact">Contact</p>
+                        <p class="footer__autres">Autres projets</p>
+                        <p class="footer__apropos">A propos</p>
+                        <p class="footer__mail">vincentbarre7@gmail.com</p>
+                        <p class="footer__dpt">Ce site est un projet réalisé dans le cadre d’un exercice pédagogique au département MMI Montbéliard</p>
+                    </div>
+                    <div class="icon__footer">
+                        <img
+                            class="main__iconig"
+                            src="/public/icon/logo-ig-logo-abundant-instagram-logo-simple-icon-1.png"  
+                            alt="Icon Instagram"
+                        />
+            
+                        <img
+                            class="main__iconx"
+                            src="/public/icon/twitter_5969020.png"  
+                            alt="Icon X"
+                        />
+            
+                        <img
+                            class="main__icontiktok"
+                            src="/public/icon/vecteezy_tiktok-logo-png-tikok-icon-transparent-png-tikok-app-logo-png_18930573.png"  
+                            alt="Icon Tiktok"
+                        />
+            
+                        <img
+                        class="main__iconyt"
+                        src="/public/icon/YouTube-icon-black-png.png"  
+                        alt="Icon Youtube"
+                        />
+        
+                    </div>
+            
+                </footer>
     
-                <img
-                    class="main__iconx"
-                    src="/public/icon/twitter_5969020.png"  
-                    alt="Icon X"
-                />
-    
-                <img
-                    class="main__icontiktok"
-                    src="/public/icon/vecteezy_tiktok-logo-png-tikok-icon-transparent-png-tikok-app-logo-png_18930573.png"  
-                    alt="Icon Tiktok"
-                />
-    
-                <img
-                class="main__iconyt"
-                src="/public/icon/YouTube-icon-black-png.png"  
-                alt="Icon Youtube"
-                />
-
-            </div>
-    
-        </footer>
-    </main>
-
-</body>
-</html>
+            
+            </body>
+            </html>
+            
