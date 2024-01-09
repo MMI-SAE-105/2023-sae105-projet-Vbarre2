@@ -1,3 +1,10 @@
+.img__livre {
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 80px;
+}
+
+
 .img__humain {
     margin-top: 20px;
     display: flex;
