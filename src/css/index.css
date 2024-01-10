@@ -10,9 +10,7 @@
     font-size: 10px;
 }
 
-.menu__icon {
-    cursor: pointer;
-}
+
 
 h1{
     font-size: 36px;
@@ -55,17 +53,6 @@ header{
 
 }
 
-header .header__img {
-    width: 57px;
-    height: 48px;
-    margin-left: 30px;
-}
-
-header .header__img:last-child {
-    width: 38.693px;
-    height: 39.977px;
-    flex-shrink: 0; 
-}
 
 header p{
     width: 20px;
