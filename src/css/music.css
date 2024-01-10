@@ -1,12 +1,11 @@
 .img__music {
-    width: 10px;
+    width: 200px;
+    margin-left: 90px;
+    margin-top: 20px;
 }
 
-
-.img__champ {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    margin-left: 30px;
+.img__Champ {
+    margin-top: 30px;
+    margin-left: 35px;
 }
 
