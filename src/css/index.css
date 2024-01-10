@@ -46,8 +46,8 @@ header{
     align-items: flex-start;
 }
 
-header img {
-    width: 48px;
+.header__img {
+    width: 18px;
     height: 48px;
     flex-shrink: 0; 
     margin: 5px;
@@ -517,5 +517,6 @@ button{
 
     }
 
-
-    
+    .FR {
+        left: -5px;
+    }
