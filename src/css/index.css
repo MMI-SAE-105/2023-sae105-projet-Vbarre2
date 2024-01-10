@@ -6,6 +6,10 @@
     max-width: 385px;
 }
 
+.footer__test{
+    font-size: 10px;
+}
+
 h1{
     font-size: 36px;
     font-family: 'Suez One', serif;
@@ -147,115 +151,17 @@ article{
     line-height: 110%;
 }
 
-button{
-    width: 159px;
-    height: 47px;
-    flex-shrink: 0;
-    
-    border-radius: 23.5px;
-    background: #FFF; 
 
-    color: #000;
-    text-align: center;
-    font-family: Suez One;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-
-    position: absolute;
-    top: 117%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button2{
-    width: 159px;
-    height: 47px;
-    flex-shrink: 0;
-    
-    border-radius: 23.5px;
-    background: #FFF; 
-
-    color: #000;
-    text-align: center;
-    font-family: Suez One;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-
-    position: absolute;
-    top: 165%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button3{
-    width: 159px;
-    height: 47px;
-    flex-shrink: 0;
-    
-    border-radius: 23.5px;
-    background: #FFF; 
-
-    color: #000;
-    text-align: center;
-    font-family: Suez One;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-
-    position: absolute;
-    top: 214%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button4{
-    width: 159px;
-    height: 47px;
-    flex-shrink: 0;
-    
-    border-radius: 23.5px;
-    background: #FFF; 
-
-    color: #000;
-    text-align: center;
-    font-family: Suez One;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-
-    position: absolute;
-    top: 264%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
-
-.button5{
-    width: 159px;
-    height: 47px;
-    flex-shrink: 0;
-    
-    border-radius: 23.5px;
-    background: #FFF; 
-
-
-    color: #000;
-    text-align: center;
-    font-family: Suez One;
-    font-size: 15px;
-    font-style: normal;
-    font-weight: 400;
-    line-height: 110%;
-
-    position: absolute;
-    top: 313%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+button {
+    padding: 10px;
+    margin: 5px;
+    cursor: pointer;
+    background-color: #320b94;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    margin-left: 145px;
+    font-family: 'Suez One', serif;;
 }
 
 .main__img3 {
