@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <style>
+    /* Style de l'icône de menu */
+    .menu-icon {
+      width: 5px;
+      height: 5px;
+      background-color: rgb(255, 255, 255);
+      margin: 6px 0;
+      transition: 0.4s;
+      cursor: pointer;
+    }
+
+    /* Style du conteneur du menu */
+    .menu-container {
+      display: none;
+      position: absolute;
+      top: 100px;
+      left: 0;
+      width: 100%;
+      background-color: #f1f1f1;
+    }
+
+    /* Style des éléments du menu */
+    .menu-item {
+      display: block;
+      padding: 10px;
+      text-align: center;
+      text-decoration: none;
+      color: black;
+    }
+
+    /* Style des éléments du menu au survol */
+    .menu-item:hover {
+      background-color: #ddd;
+    }
+
+    /* Changement de l'icône de menu en croix quand il est actif */
+    .active .menu-icon:nth-child(1) {
+      transform: rotate(-45deg) translate(-9px, 6px);
+    }
+
+    .active .menu-icon:nth-child(2) {
+      opacity: 0;
+    }
+
+    .active .menu-icon:nth-child(3) {
+      transform: rotate(45deg) translate(-8px, -8px);
+    }
+
+    /* Affichage du menu quand l'icône est actif */
+    .active + .menu-container {
+      display: block;
+    }
+  </style>
+</head>
+<body>
+  <!-- Icône de menu -->
+  <div id="menu-icon" onclick="toggleMenu()">
+    <div class="menu-icon"></div>
+    <div class="menu-icon"></div>
+    <div class="menu-icon"></div>
+  </div>
+
+  <!-- Conteneur du menu -->
+  <div class="menu-container">
+    <!-- Éléments du menu -->
+
+
+
+  </div>
+
+  <!-- Script pour basculer le menu -->
+  <script>
+    // Sélectionner l'icône de menu
+    var menuIcon = document.getElementById("menu-icon");
+
+    // Fonction pour basculer le menu
+    function toggleMenu() {
+      // Ajouter ou enlever la classe active à l'icône de menu
+      menuIcon.classList.toggle("active");
+    }
+  </script>
+</body>
+</html>
