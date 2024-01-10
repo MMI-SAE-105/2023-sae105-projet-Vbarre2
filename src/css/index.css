@@ -18,7 +18,7 @@ h1{
 }
 
 h2{
-
+    left: 10px;
     font-size: 24px;
     font-family: 'Suez One', serif;
 }
@@ -49,8 +49,6 @@ header{
     height: 54px;
     flex-shrink: 0; 
     background-color: white;
-
-
 }
 
 
